@@ -1,0 +1,116 @@
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2C2B3D;
+
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.6rem; /* 16px */
+    text-align: center;
+        
+    color: #FFFFFF;
+
+    min-height: 100vh;
+}
+
+.page {
+    padding-block: 7.1rem 2.3rem;
+}
+
+nav {
+    width: 108.3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto 10.1rem;
+}
+
+#logo {
+    width: 16.8rem;
+    height: 2.3rem;
+}
+
+ul {
+    display: flex;
+    gap: 6.4rem;
+
+    list-style: none;
+}
+
+a {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
+
+main {
+    width: 109.2rem;
+
+    display: flex;
+    align-items: center;
+    gap: 7.7rem;
+
+    margin: 0 auto 15.7rem;
+}
+
+main img {
+    width: 40.1rem;
+    height: 28.3rem;
+}
+
+.text {
+    width: 60.9rem;
+}
+
+.text h1 {
+    font-size: 3.6rem;
+    line-height: 4rem;
+
+    margin-bottom: 5.9rem;
+}
+
+span {
+    color: #00BFA6;
+}
+
+.text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 2.8rem;
+
+    color: #C2C2C2;
+}
+
+.line {
+    width: 56.8rem;
+    height: 0rem;
+
+    margin: 15.7rem auto 2.7rem;
+
+    border: 1px solid #00BFA6;
+}
+
+footer p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+
+#padlock {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+}
